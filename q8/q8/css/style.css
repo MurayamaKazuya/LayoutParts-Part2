@@ -1,2 +1,23 @@
 @charset "UTF-8";
-
+.img--back{
+  background:url(../../image/coffee-background.jpg);
+}
+.height--area{
+  height:500px;
+}
+.img--norepeat{
+  background:url(../../image/coffee-background.jpg);
+  background-repeat: no-repeat;
+}
+.img--center{
+  background:url(../../image/coffee-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+}
+.img--overall{
+  background:url(../../image/coffee-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

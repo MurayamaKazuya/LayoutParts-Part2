@@ -1,1 +1,32 @@
 @charset "UTF-8";
+.arrow_box{
+  position:relative;
+  width:500px;
+  background:#FAD296;
+  padding:20px;
+  border:5px solid #8F5A0A;
+  color:#000000;
+  font-size:16px;
+  border-radius:30px;
+  margin: 0 auto;
+}
+.arrow_box:after,.arrow_box:before{
+  content:'';
+  height:0;
+  width:0;
+  pointer-events:none;
+  position:absolute;
+  top:100%;
+  left:10%;
+}
+.arrow_box:after{
+  border: 20px solid transparent;
+  margin-left: -10px;
+  border-top-color:#FAD296;
+}
+.arrow_box:before{
+  border:24px solid transparent;
+  margin-left: -14px;
+  margin-top: 4px;
+  border-top-color:#8F5A0A;
+}
