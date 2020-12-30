@@ -16,8 +16,5 @@
   background-size: 100% auto;
 }
 .img--overall{
-  background:url(../../image/coffee-background.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+  background:url(../../image/coffee-background.jpg) no-repeat center/contain;
 }
